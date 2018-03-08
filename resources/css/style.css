@@ -1,0 +1,87 @@
+html {
+font-family:  Helvetica;
+color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-left: 90px;
+  height: 70px;
+}
+.header img {
+  height: 50px;
+  padding-right: 15px;
+}
+
+.motobanner {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/moto.jpeg");
+  height: 500px;
+  width: 1400px;
+  background-size: cover;
+}
+.motoboxcontainer {
+  display: flex;
+  background-color: black;
+  height: 200px;
+  width: 350px;
+  margin-left: 150px;
+}
+.motobox {
+  display: flex;
+  justify-content:
+}
+
+.motoheader {
+
+}
+.motofeature {
+
+}
+
+.navbar {
+
+}
+
+.navbar a {
+
+}
+
+/**products**/
+.boxcontainer {
+
+}
+
+.innercontainer {
+
+}
+
+.productboxes {
+
+}
+
+.productdescriptions {
+
+}
+
+/**location info**/
+.contactinfo {
+
+}
+.titlebox  {
+
+}
+
+.infobox {
+
+}
+
+/**footer*/
+
+.footer  {
+
+}
