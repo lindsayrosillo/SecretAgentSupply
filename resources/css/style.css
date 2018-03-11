@@ -6,42 +6,50 @@ font-size: 18px;
 
 .header {
   display: flex;
-  align-items: center;
+  justify-content: center;
   background-color: black;
   color: white;
-  padding-left: 90px;
-  height: 70px;
+  width: 100%
 }
-.header img {
-  height: 50px;
-  padding-right: 15px;
-}
-
-.moto-banner {
+.header-container {
   display: flex;
   align-items: center;
+  width: 960px;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+.header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+/**main motorcycle banner**/
+.moto-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url("../images/moto.jpeg");
-  height: 500px;
-  width: 1400px;
+  height: 25rem;
+  width: 100%;
   background-size: cover;
+}
+.moto-main {
+  width: 960px;
+  display: flex;
 }
 
 .moto-container {
-  display: flex;
-  flex-direction: column;
   background-color: black;
-  height: 200px;
   width: 20rem;
-  margin-left: 150px;
-  padding-top: 2rem;
-  padding-bottom: 25px;
+  padding: 2rem 3rem;
 
 }
+
 .motobox-head p{
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 0.25rem;
-  padding-left: 3rem;
+
 }
 
 .moto-feature p {
@@ -49,45 +57,107 @@ font-size: 18px;
   font-weight: bold;
 }
 
-.navbar {
+/**--Navigation--**/
 
+.navbar {
+  background-color: firebrick;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
 }
 
 .navbar a {
-
+  color: white;
+  text-decoration: none;
 }
 
 /**products**/
-.boxcontainer {
 
+.products {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.innercontainer {
-
+.product-boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
 }
-
-.productboxes {
-
+.product-boxes .box {
+  border: solid black 4px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 3rem;
 }
-
-.productdescriptions {
-
+.product-boxes .box p {
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+.product-boxes img {
+  align-self: center;
+  max-height: 9rem;
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.glasses img {
+  padding-top: 2rem;
 }
 
 /**location info**/
 .contactinfo {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+  margin-bottom: 4rem;
 }
-.titlebox  {
-
+.locations {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
 }
 
-.infobox {
-
+.location-box,
+.hours {
+  width: 35%;
 }
-
+.button {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+.blacktext {
+  padding-top: 0.3rem;
+  color: black;
+}
 /**footer*/
 
 .footer  {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+}
+.copy {
+  width: 960px;
 }
